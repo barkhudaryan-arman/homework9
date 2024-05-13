@@ -14,7 +14,7 @@ public class Main {
             int[] payments = {20, 25, 90, 85, 60};
             int maxPayments = -1;
             for (int i = 0; i < payments.length; i++) {
-                if (payments[i] > maxPayments){
+                if (payments[i] > maxPayments) {
                     maxPayments = payments[i];
                 }
             }
@@ -23,8 +23,8 @@ public class Main {
         {
             int[] payments = {20, 15, 90, 85, 60};
             int maxPayments = Integer.MAX_VALUE;
-            for (int i = 0; i < payments.length; i++){
-                if (payments[i] < maxPayments){
+            for (int i = 0; i < payments.length; i++) {
+                if (payments[i] < maxPayments) {
                     maxPayments = payments[i];
                 }
             }
@@ -37,13 +37,13 @@ public class Main {
             for (int i = 0; i < payments.length; i++) {
                 maxPayments += payments[i];
             }
-            int avg = maxPayments / 4;
+            int avg = maxPayments / payments.length;
             System.out.println("Средняя сумма затрат за месяц составила " + avg + " рублей");
         }
         //Задача 4
         {
-            char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-            for (int i = reverseFullName.length - 1 ; i >= 0; i--) {
+            char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+            for (int i = reverseFullName.length - 1; i >= 0; i--) {
                 System.out.print(reverseFullName[i]);
             }
             System.out.println();
