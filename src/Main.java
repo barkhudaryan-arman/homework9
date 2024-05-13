@@ -30,7 +30,7 @@ public class Main {
             }
             System.out.println("Минимальная сумма трат за неделю составила " + maxPayments + " рублей");
         }
-        // Задача 3
+        // Задача 2
         {
             int[] payments = {15, 25, 40, 10, 20};
             int maxPayments = 0;
